@@ -1,0 +1,14 @@
+h1, h2, p {
+    font-weight: normal;
+}
+
+body {
+    background-color: #bbd0e6;
+}
+h1 {
+    color: black;
+    font-size: 20px;
+}
+p {
+    color: black;
+}
