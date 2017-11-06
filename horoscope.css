@@ -1,14 +1,26 @@
-h1, h2, p {
+h1, h2, h3 {
     font-weight: normal;
 }
 
 body {
-    background-color: #bbd0e6;
+    background-image: url(https://www.readytribe.com/wp-content/uploads/2015/09/BigdipISS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    color: #b8d0ff;
+
 }
+
+
+
 h1 {
-    color: black;
+    text-align: center;
+    color: #b8d0ff;
+    font-size: 40px;
+}
+
+h2,h3 {
+    color: #b8d0ff;
     font-size: 20px;
 }
-p {
-    color: black;
-}
+

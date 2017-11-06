@@ -8,12 +8,15 @@
 </head>
 <body onload="determineDays(1)">
 <header>
-    <h1>Your name:</h1>
+    <h1>Today's Horoscope</h1>
+</header>
+<header>
+    <h2>Your name:</h2>
 </header>
 <input type="text" id="name" value="" size="25">
 
 <header>
-    <h1>Your birthday:</h1>
+    <h3>Your birthday:</h3>
 </header>
 
 <select id="month" onchange="determineDays(this.value)">
@@ -37,6 +40,7 @@
 
 <button id="submit" onclick="onSubmit()">submit</button>
 <div id="output"></div>
+<div id="birthday"></div>
 <div id="image"></div>
 </body>
 </html>
